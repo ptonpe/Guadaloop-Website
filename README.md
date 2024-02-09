@@ -1,20 +1,7 @@
 # Guadaloop-Website
 Guadaloop's very own website :)
 
-Website Requirements: 
--Home page
--About us page
--Recruiting page 
-    -more information
-    -better layout
-    -not easily navigatable 
-    -combine this with the teams page, and each team has descriptions
--New Research Page (Feasbility Studies)
--Link our link tree on the website 
--Partners/Sponsers page
--Contact Us page
--Media Page
--Podcast Page
--Removing outdated pictures
+Doc has requirements and brainstorming for website:
+https://docs.google.com/document/d/178cBOEjXQv4NL41lrz4zPyc4Hy_YANrNena1LYJGJMs/edit?usp=sharing
 
 
