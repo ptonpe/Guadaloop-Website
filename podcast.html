@@ -1,11 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="podcast.css">
+
 </head>
+
 <body>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary customgradient">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Teams
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Engineering</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Business</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Research</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Press and Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Podcasts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="imagesection">
+    <img src="podcast-images/microphone.jpg.jpg" alt="">
+    <div class="image-text-content">
+      <h1>Podcasts</h1>
+      <p>Inspiring Innovation</p>
+      <div class="spancontainer">
+        <span><b>2</b> Seasons</span>
+        <span><b>10+</b> Episodes</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="info">
+    <div class="hoverbox">
+      <p>In our podcasts, we host exciting conversations with leaders and innovators that continue to explore the
+        cutting edge of technology and scientific discoveries.</p>
+      <div class="glow"></div>
+    </div>
+  </div>
+
+  <div class="info two">
+    <div class="hoverbox">
+      <p>From discussions centered around hyperloop, space, rocketry, and
+        much more, we hope to inspire innovation in an all kinds of sectors through our platform.</p>
+      <div class="glow"></div>
+    </div>
+    <div class="loop-overlay"></div>
+  </div>
+
+
+
+
+
+  <div class="headingcarousel first">
+    <div class="h1container">
+      <h1>Season One</h1>
+    </div>
+  </div>
+
+  <!-- TESTING STARTS HERE -->
+  <div class="carousel-wrapper">
+    <div class="carousel-main">
+      <div class="slider">
+        <div class="item">
+          <img src=https://unsplash.it/1920/1080?random=1" loading="eager" alt="">
+          <div class='content'>
+            <h2 class='title'>Episode 1: Javier Bonilla</h2>
+            <p class='description'>We sat down with Javier Bonilla, our former business lead. 
+              Javier was the team’s head of business from 2018 - 2020. He had a strong vision for the team and helped get 
+              it to where it is today. He now works as a Fraud Analyst at Glovo in Barcelona.
+            <br><br>Published February 1st, 2021
+            </p>
+            <button>Watch</button>
+          </div>
+        </div>
+        <!-- visible item -->
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=2" loading="eager" alt="Nobis Omnis" class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 2: Michael McDaniel</h2>
+            <p class='description'>We had a chat with Michael McDaniel, an award-winning designer, team builder, and problem solver.  
+              Michael currently works as head of design for ICON, 
+              an Austin-based technology company using 3D printing robotics, software and advanced materials to advance humanity. 
+              ICON recently received funding from NASA to develop a space-based construction 
+              system to support future exploration of the Moon. <br><br>
+              Published February 8th, 2021</p>
+            <button>Watch</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=3" loading="eager" alt="Ut Distinctio" class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Gate Keeper"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class='item'>
+          <img src="https://unsplash.it/1920/1080?random=4" loading="eager" alt="Commodi Veniam" class="image" />
+          <div class='content'>
+            <h2 class='title'>"Last Trace Of Us"</h2>
+            <p class='description'>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=5" loading="eager" alt="Ipsam Tenetur" class="image" />
+          <div class='content'>
+            <h2 class='title'>"Urban Decay"</h2>
+            <p class='description'>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+
+  
+        <!-- THESE ARE THE ITEMS I ADDED TO GET FROM THE DEFAULT 6 TO THE 13 EPISODES -->
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="https://unsplash.it/1920/1080?random=6" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>"The Migration"</h2>
+            <p class='description'> Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+              praesentium nisi. Id laboriosam ipsam enim. </p>
+            <button>Read More</button>
+          </div>
+        </div>
+
+        <!-- ELEMENTS I ADDED END HERE  -->
+
+
+      </div>
+      <nav class='nav'>
+        <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+        <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+      </nav>
+    </div>
+  </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- TESTING ENDS HERE -->
+
+  <div class="headingcarousel second">
+    <div class="h1container second">
+      <h1>Season Two</h1>
+    </div>
     
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
 </body>
+
+<script src="podcast.js"></script>
+
+
 </html>
