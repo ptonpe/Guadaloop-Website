@@ -471,7 +471,8 @@ li .dropdown-item:hover {
         transition: background var(--speed), color var(--speed);
 
         &:hover {
-            background-color: rgba(0, 0, 0, 0.9);
+            /* background-color: rgba(0, 0, 0, 0.9); */
+            background-color: #161B22;
             color: rgba(255, 255, 255, 0.9);
         }
     }
@@ -515,7 +516,8 @@ li .dropdown-item:hover {
         transition: background var(--speed), color var(--speed);
 
         &:hover {
-            background-color: rgba(0, 0, 0, 0.9);
+            /* background-color: rgba(0, 0, 0, 0.9); */
+            background-color: #161B22;
             color: rgba(255, 255, 255, 0.9);
         }
     }
