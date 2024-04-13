@@ -250,7 +250,7 @@ li .dropdown-item:hover {
     align-items: center;
     justify-content: center;
     background-color: #0D1117;
-    border-bottom: 0.5rem solid white;  
+    border-bottom: 0.5rem solid #A54B01;  
     /* Work on the border bottom color maybe? */
 
 }
