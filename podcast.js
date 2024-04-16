@@ -54,7 +54,7 @@ $hoverboxes.forEach($hoverbox => {
   });
 });
 
-///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////// Season 1 Carousel
 
 const slider = document.querySelector(".slider");
 
@@ -65,3 +65,16 @@ function activate(e) {
 }
 
 document.addEventListener("click", activate, false);
+
+/////////////////////////////////////////////////////////// Season 2 Carousel
+
+
+const slidertwo = document.querySelector(".slidertwo");
+
+function activatetwo(e) {
+  const itemstwo = document.querySelectorAll(".itemtwo");
+  e.target.matches(".nexttwo") && slidertwo.append(itemstwo[0]);
+  e.target.matches(".prevtwo") && slidertwo.prepend(itemstwo[itemstwo.length - 1]);
+}
+
+document.addEventListener("click", activatetwo, false);
