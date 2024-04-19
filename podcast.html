@@ -1,11 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="podcast.css">
+
 </head>
+
 <body>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary customgradient">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Teams
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Engineering</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Business</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#">Research</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Press and Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Podcasts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="imagesection">
+    <img src="podcast-images/microphone.jpg" alt="">
+    <div class="image-text-content">
+      <h1>Podcasts</h1>
+      <p>Inspiring Innovation</p>
+      <div class="spancontainer">
+        <span><b>2</b> Seasons</span>
+        <span><b>10+</b> Episodes</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="info">
+    <div class="hoverbox">
+      <p>In our podcasts, we host exciting conversations with leaders and innovators that continue to explore the
+        cutting edge of technology and scientific discoveries.</p>
+      <div class="glow"></div>
+    </div>
+  </div>
+
+  <div class="info two">
+    <div class="hoverbox">
+      <p>From discussions centered around hyperloop, space, rocketry, and
+        much more, we hope to inspire innovation in an all kinds of sectors through our platform.</p>
+      <div class="glow"></div>
+    </div>
+    <div class="loop-overlay"></div>
+  </div>
+
+
+
+  <div class="headingcarousel first">
+    <div class="h1container">
+      <h1>Season One</h1>
+    </div>
+  </div>
+
+  <!-- SEASON ONE -->
+  <div class="carousel-wrapper">
+    <div class="carousel-main">
+      <div class="slider">
+        <div class="item">
+          <img src="podcast-images/S1E11.jpg" loading="eager" alt="">
+          <div class='content'>
+            <h2 class='title'>Episode 11: Amiee Quon</h2>
+            <p class='description'>
+              Amiee Quon is a UT alumna who now works at JPL. She has worked on a number of robotic missions, most recently as a chamber test engineer for the Mars helicopter, 
+              Ingenuity. Amiee is also involved in the National Community College Aerospace Scholar program where she mentors 
+              community college students. <br> <br>
+              Published May 26, 2021
+            </p>
+            <a href="https://youtu.be/B9c-tt-RtTQ?si=NA8XNB4vD2S8FNAY">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- visible item -->
+        <div class="item">
+          <img src="podcast-images/S1E1.png" loading="eager" alt="" class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 1: Javier Bonilla</h2>
+            <p class='description'>We sat down with Javier Bonilla, our former business lead. 
+              Javier was the team’s head of business from 2018 to 2020 and propelled Texas Guadaloop to where it is today.
+            <br><br>Published February 1st, 2021</p>
+            <a href="https://youtu.be/CugUId6W8VQ?si=TmyztIFbd_SdP_hX">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="podcast-images/S1E2.jpg" loading="eager" alt="" class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 2: Michael McDaniel</h2>
+            <p class='description'> Michael McDaniel is an award-winning designer and team builder.  
+              Michael currently works as head of design for ICON, 
+              an Austin-based technology company using 3D printing robotics, software, and advanced materials to advance humanity. 
+              ICON recently received funding from NASA to develop a space-based construction 
+              system to support future exploration of the Moon. <br><br>
+              Published February 8th, 2021</p>
+            <a href="https://youtu.be/2G7Q4wBld3Q?si=FgRhzM0VFSitDK4q">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+        <div class='item'>
+          <img src="podcast-images/S1E3Dark.png" loading="eager" alt="" class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 3: Dr. Bob Metcalfe</h2>
+            <p class='description'>
+              We had the opportunity to hang out with 
+              Dr. Bob Metcalfe, a pioneer credited with inventing and commercializing Ethernet. 
+              Dr. Metcalfe went on to start multiple companies, and in 2005, received the United States National Medal of Technology. 
+              Metcalfe is the retired Professor of Innovation at UT. 
+              <br><br>Published February 17th, 2021
+            </p>
+            <a href="https://youtu.be/QrSXcFrYRDI?si=LyBj9P4gjH2x0_U0">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="podcast-images/S1E4.avif" loading="eager" alt="" class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 4: Dr. Leon Vanstone</h2>
+            <p class='description'>
+              Dr. Leon Vanstone is a rocket scientist, aerodynamic engineer, and 
+              science communicator. He is the director of the Texas Rocket Engineering Lab 
+              and is a lecturer in rocket system design and fabrication. <br> <br>
+              Published February 22nd, 2021
+            </p>
+            <a href="https://youtu.be/vUZvhBhLgiA?si=sQxfPeLWgGbgUEY5">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="podcast-images/S1E5.avif" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 5: Josh Giegel</h2>
+            <p class='description'>Josh Giegel is a technologist and entrepreneur who co-founded one of the most exciting companies in the Hyperloop industry, 
+              Virgin Hyperloop. Josh has worked at various rocket companies 
+              including NASA, SpaceX and Virgin Galactic. <br><br>
+              Published March 1st, 2021
+            </p>
+            <a href="https://youtu.be/SIII-GU_T3E?si=tcjIMB4ucECrGFb9">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- THESE ARE THE ITEMS I ADDED TO GET FROM THE DEFAULT 6 TO THE 13 EPISODES -->
+        <div class="item">
+          <img src="podcast-images/S1E6.avif" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 6: Gary Bond</h2>
+            <p class='description'> Gary Bond worked at Boeing for 26 years, 
+              becoming a technical fellow. He then joined Solvay as a technical fellow in 2020. 
+              Gary is a composites specialist, USAF veteran, and creator of LaminateLife.com. 
+              In his free time you can find Gary up in the sky in his Grumman AA-5B Tiger.
+            <br><br>Published March 8th, 2021
+          </p>
+              <a href="https://youtu.be/CR6tRX5FfVg?si=zN7UE5gjVjatoXcw">
+                <button>Watch</button>
+              </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="podcast-images/S1E7Version2.avif" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 7: Paul Sean Hill</h2>
+            <p class='description'> Paul Hill spent 25 years with NASA developing space 
+              station construction techniques and supported 24 missions as a flight director, including Space Shuttle and ISS missions. 
+              Paul also served as the Director of Mission Operations at Human Spaceflight for 7 years. 
+              Paul is now an author and speaker. <br> <br>
+              Published March 15th, 2021
+            </p>
+            <a href="https://youtu.be/kdJZ2RQNnpk?si=fOxzRmAKTCrEmvF2">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="podcast-images/S1E8.avif" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 8: Vik Parth</h2>
+            <p class='description'> Vik Parth was the team captain of the award-winning MIT Hyperloop II team 
+              and is currently the Director of Innovation and Product Strategy at Arrow Electronics. 
+              His work has been featured at MIT, Wired Magazine, The University of Texas at Austin, TEDx and SXSW.
+              <br><br>Published March 22nd, 2021
+            </p> 
+              
+             
+              <a href="https://youtu.be/J93JyZByOt4?si=tMv1rm4t8jZLJvXC">
+                <button>Watch</button>
+              </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="podcast-images/S1E9.avif" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 9: Dr. Moriba Jah</h2>
+            <p class='description'> Dr. Moriba Jah is an avid science communicator and expert in the field of space debris. 
+              He is leading an international effort to preserve humanity's access to space 
+              and has previously supported Mars missions at JPL as a spacecraft navigator. <br><br>
+              Published April 5th, 2021
+             </p>
+             <a href="https://youtu.be/7dLv6uCxge4?si=Nv2-QevR-5SRcpu7">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="podcast-images/S1E10Dark.png" loading="eager" alt="Nesciunt Consectetur Similique Sit"
+            class="image" />
+          <div class='content'>
+            <h2 class='title'>Episode 10: Ben James</h2>
+            <p class='description'> Ben James is a seasoned product leader and entrepreneur who is passionate about mixed and augmented reality systems, 
+              electric transportation, and education. He was one of the original members of Texas Guadaloop 
+              and is a self declared "Mad Scientist," 
+              always tinkering and building things. <br><br>
+              Published May 3rd, 2021
+            </p>
+            <a href="https://youtu.be/fZy3RXc66YQ?si=Xv_9J7jXJoI5gkGl">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- ELEMENTS I ADDED END HERE  -->
+
+
+      </div>
+      <nav class='nav'>
+        <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+        <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+      </nav>
+    </div>
+  </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- SEASON 1 ENDS HERE -->
+
+
+
+
+  <!-- SEASON 2 HEADING STARTS BELOW THIS -->
+
+  <div class="headingcarousel second">
+    <div class="h1container second">
+      <h1>Season Two</h1>
+    </div>
     
+  </div>
+
+  <!-- ADDING SECOND CAROUSEL HERE FOR SEASON 2 -->
+
+  <div class="carousel-wrappertwo">
+    <div class="carousel-maintwo">
+      <div class="slidertwo">
+        <div class="itemtwo">
+          <img src="podcast-images/ComingSoon.avif" loading="eager" alt="">
+          <div class='contenttwo'>
+            <h2 class='titletwo'>Coming Soon</h2>
+            <p class='descriptiontwo'>
+              Enjoyed our podcasts? Keep up with our socials to stay in touch and receive more information about Texas Guadaloop. More podcasts coming soon!
+            </p>
+            <!-- <a href="https://youtu.be/B9c-tt-RtTQ?si=NA8XNB4vD2S8FNAY">
+              <button>Watch</button>
+            </a> -->
+          </div>
+        </div>
+
+        <!-- visible item -->
+
+        <div class="itemtwo">
+          <img src="podcast-images/S2E1.avif" loading="eager" alt="" class="image" />
+          <div class='contenttwo'>
+            <h2 class='titletwo'>Episode 1: Matt Ondler</h2>
+            <p class='descriptiontwo'>
+              Mr. Ondler served 28 years with NASA, notably as the Assistant Director of Engineering at the Johnson Space Center. 
+              After working at NASA, Matt started his own robotics company (Houston Mechatronics) 
+              and joined Axiom Space as Chief Technology Officer.  
+              At Axiom, Matt is helping develop the worlds first commercial space station. <br><br>
+              Published September 2, 2021
+            </p>
+            <a href="https://youtu.be/fCNdvJiXEhM?si=R52EbatYpQNS0NHl">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <div class="itemtwo">
+          <img src="podcast-images/S2E2.avif" loading="eager" alt="" class="image" />
+          <div class='contenttwo'>
+            <h2 class='titletwo'>Episode 2: Tom Markusic</h2>
+            <p class='descriptiontwo'>
+              Mr. Markusic has previously worked as the Vice President of Propulsion at Virgin Galactic, Senior Systems Engineer at Blue Origin, 
+              Director at Texas Test Site, and Principal Propulsion Engineer at SpaceX. He is currently the Chief Technical Advisor and former CEO of
+              Firefly Aerospace.
+            <br><br>Published November 22nd, 2021</p>
+            <a href="https://youtu.be/i075mqE5vdk?si=Sn3XhLoI9JbbLRtD">
+              <button>Watch</button>
+            </a>
+          </div>
+        </div>
+
+        
+      </div>
+      <nav class='navtwo'>
+        <ion-icon class='btn prevtwo' name="arrow-back-outline"></ion-icon>
+        <ion-icon class='btn nexttwo' name="arrow-forward-outline"></ion-icon>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
 </body>
+
+<script src="podcast.js"></script>
+
+
 </html>
