@@ -171,7 +171,11 @@
 
 .info.two h1{
     color: #cf7429;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5em;
 }
+
 
 
   
@@ -180,6 +184,7 @@
     background-image: url(https://res.cloudinary.com/scalefunder/image/fetch/s--T-bX0TmQ--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1552072002/HornRaiser/pzpw69atyywwxizxkpla.jpg);
     background-size: cover;
     background-attachment: fixed;
+
   }
   
   .loop-overlay {
