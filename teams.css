@@ -38,6 +38,17 @@
     }
 }
 
+body {
+    background-color: rgb(from black 10 20 30); /* dont like, can change later */
+}
+
+.customgradient {
+    /* background: rgb(163, 84, 0);
+    background: linear-gradient(90deg, rgba(163, 84, 0, 1) 0%, rgba(237, 148, 65, 1) 100%); */
+    background: rgb(128, 66, 0);
+    background: linear-gradient(90deg, rgba(128, 66, 0, 1) 0%, rgba(176, 92, 14, 1) 100%);
+}
+
 .dropdown-menu {
     background-color: #e6883b;
     animation: slideDown 0.3s ease;
@@ -137,164 +148,49 @@ li .dropdown-item:hover {
     font-size: 1.5em;
 }
 
-.image-text-content p {
-    font-size: 0.5em;
 }
 
-.image-text-content span {
-    font-size: 0.5em;
-}
+.executive-members {
+    color: white; /* for the sake of having something */
+    background-color: inherit;
+    /* height: 100% */
+    width: 75%;
 
+    margin: 0 auto;
 
+    /* for header text */
+    text-align: center;
 
-
-.info {
-    width: 100%;
-    /* height: 40vh; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5em;
-    /* flex-wrap: wrap; */
-    font-size: 1.5em;
-
-    perspective: 1500px;
-
-    background-color: #0D1117;
-
-}
-
-.info.two {
-    background-color: #D6D2C4;
-    background-image: url(https://res.cloudinary.com/scalefunder/image/fetch/s--T-bX0TmQ--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1552072002/HornRaiser/pzpw69atyywwxizxkpla.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.info h1{
-    color: #cf7429;
-}
-
-
-.info.two h1{
-    color: #cf7429;
-}
-
-.loop-overlay {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #a54b01;
-    opacity: 50%;
-    z-index: -1;
-    box-shadow: inset 0 0 100px 25px rgba(0, 0, 0, 0.5);
-
-}
-
-.hoverbox {
-    /* background-color: rgb(241, 241, 241); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5em;
-    margin: 2.5em;
-    flex-wrap: wrap;
-
-    /* font-weight: bold;
-    padding: 1em;
-    text-align: right;
-    color: #181a1a;
-    
-    width:  300px;
-    height: 400px;
-    box-shadow: 0 1px 5px #00000099; */
-
-    border-radius: 10px;
-    border: 1px;
-    /* border-color: rgb(201, 201, 201); */
-    border-color: #2E343B;
-    border-style: solid;
-
-    position: relative;
-    transition-duration: 300ms;
-    transition-property: transform, box-shadow;
-    transition-timing-function: ease-out;
-    transform: rotate3d(0);
-
-    background-color: #161B22;
-    color: white;
-}
-
-.hoverbox.two {}
-
-.hoverbox:hover {
-    transition-duration: 150ms;
-    box-shadow: 0 5px 20px 5px #00000044;
-}
-
-.hoverbox .glow {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
-}
-
-
-.headingcarousel {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 20vh;
-    align-items: center;
-    justify-content: center;
-    background-color: #0D1117;
-    border-bottom: 0.5rem solid #A54B01;  
-    /* Work on the border bottom color maybe? */
-
-}
-
-.headingcarousel h1 {
-    /* flex: 1; */
-    color: white;
-    /* border: 1px solid #2E343B;
-    border-radius: 10px; */
-    padding: 1vh;
-}
-
-.h1container {
-    background-color: #161B22;
-    border: 1px solid #2E343B;
-    border-radius: 10px;
-    /* padding: 1vh; */
-}
-
-/* .headingcarousel.second {
-    background-color: #161B22;
-}
-
-.h1container.second {
-    background-color: #0D1117;
-} */
-
-
-
-
-
-@keyframes show {
-    0% {
-        filter: blur(10px);
-    }
-
-    100% {
-        opacity: 1;
-        filter: blur(0);
-        transform: translateY(0);
+    & h1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 5em;
     }
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
 
+.executive-card {
+    background-color: white;
+    border-radius: 10%;
+}
+
+.executive-img img {
+    margin-top: 5%;
+    border-radius: 50%;
+    border-color: black;
+    height: 75%;
+    width: 75%;
+    border: 5px solid #cf7429;
+}
+
+.executive-info {
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
 
