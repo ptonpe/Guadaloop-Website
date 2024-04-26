@@ -1,95 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guadaloop</title>
-    <link rel="stylesheet" href="Guadaloop-Website/home.css" /> 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    
 
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
 
-    <div class = "container">
-      <div class = "hamburger-menu">
-        <div class = "line line-1"></div>
-        <div class = "line line-2"></div>
-        <div class = "line line-3"></div>
-        <span>Close</span>
-      </div>
-      <header class = "header">
-        <div class = "img-wrapper">
-            <img src="https://drive.google.com/thumbnail?id=1HeQXttVI0f3aW5azTznbZoax23cbk3nf" />
-          
-        </div>
-        <div class = "banner">
-          <h1>Texas Guadaloop</h1>
-          <p>Building the Future</p>
-        </div>
-      </header>
-      
 
-      <section class = "sidebar">
-        <ul class = "menu">
-          <li class = "menu-item">
-            <a href = "home.html" class = "menu-link" data-content = "Home">Home</a>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary customgradient">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
           </li>
-          <li class = "menu-item">
-            <a href = "aboutus.html" class = "menu-link" data-content = "About Us">About Us</a>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
           </li>
-          <li class = "menu-item">
-            <a href = "sponsors.html" class = "menu-link" data-content = "Sponsors">Sponsors</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Teams
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="teams.html">Teams</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="engineering.html">Engineering</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="business.html">Business</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="research.html">Research</a></li>
+            </ul>
           </li>
-          <li class = "menu-item">
-            <a href = "teams.html" class = "menu-link" data-content = "Teams">Teams</a>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsors.html">Sponsors</a>
           </li>
-          <li class = "menu-item">
-            <a href = "press.html" class = "menu-link" data-content = "Press and Events">Press and Events</a>
+          <li class="nav-item">
+            <a class="nav-link" href="press.html">Press and Events</a>
           </li>
-          <li class = "menu-item">
-            <a href = "podcast.html" class = "menu-link" data-content = "Podcast">Podcast</a>
-          </li>
-          <li class = "menu-item">
-            <a href = "contact.html" class = "menu-link" data-content = "Contact Us">Contact Us</a>
+          <li class="nav-item">
+            <a class="nav-link" href="podcast.html">Podcasts</a>
           </li>
         </ul>
-      </section>
-
-      <section class="body">
-        <h1> Who are we?</h1>
-        <p>Texas Guadaloop is a diverse group of men and women from The University of Texas at Austin disrupting modern transportation with the research and development of prototype hyperloop pods.</p>
-        <p> We have designed, built, and tested an electrically propulsed hyperloop pod that levitates utilizing magnetic levitation. We iteratively develop our technology to uphold ambitious innovation and advancement goals. Guadaloop's solution is an energy efficient and cost-effective alternative to how we move goods and people.</p>
-    </section>
-
-    <section class="join">
-        <h1> Join Now</h1>
-        <p>At Texas Guadaloop, we are looking for driven, ambitious, and creative students.  Everything we have achieved and learned has been through the students involved with us. Whether you seek to develop your engineering or business skills, or just gain leadership experience, we are here to provide you with the resources to help you succeed. This is an engineering project with real world business needs including corporate responsibility. We deal with state of the art technology which requires structured management and effective communication, and our success is dependent on the minds behind the project. We function as one cohesive team, and can't wait for you to be a part of it. Our main goal is to develop students into professionals and we do that through the technology we work with.
-
-            Recruiting for the current semester is closed, however we anticipate a small recruiting phase at the start of the Spring 2024 semester. </p>
-            <button class = "join-button">
-                <a href = "teams.html" class = "join-button" data-content = "Teams">Teams</a>
-            </button>
-        
-    </section>
-
-      
-      
-      <a href = "#" class = "scroll-btn">
-        <i class="fas fa-arrow-up"></i>
-      </a>
-
+      </div>
     </div>
+  </nav>
 
-    <script src = "home.js"></script>
+
+  <div class="imagesection">
+    <img src="images/HomePic.JPG" alt="">
+    <div class="image-text-content">
+      <h1>Texas Guadaloop</h1>
+      <p>Building the Future</p>
+    </div>
+  </div>
  
-  </body>
+
+
+  <div class="info">
+    <div class="hoverbox">
+      <p>Texas Guadaloop is a diverse group of men and women from The University of Texas at Austin disrupting modern transportation with the research and development of prototype hyperloop pods. <br>
+        We have designed, built, and tested an electrically propulsed hyperloop pod that levitates utilizing magnetic levitation. We iteratively develop our technology to uphold ambitious innovation 
+        and advancement goals. Guadaloop's solution is an energy efficient and cost-effective alternative to how we move goods and people.</p>
+      <div class="glow"></div>
+    </div>
+  </div>
+
+  <div class="info two">
+    <div class="box">
+        <h1>Join Now <br></h1>
+        <p1>At Texas Guadaloop, we are looking for driven, ambitious, and creative students.  Everything we have achieved and learned has been through the students involved with us. Whether you seek to develop your engineering or business skills, or just gain leadership experience, we are here to provide you with the 
+          resources to help you succeed. This is an engineering project with real world business needs including corporate responsibility. We deal with state of the art technology which requires structured management and effective communication, and our success is dependent on the minds behind the project. We function 
+          as one cohesive team, and can't wait for you to be a part of it. Our main goal is to develop students into professionals and we do that through the technology we work with.
+          <br>
+          Recruiting for the current semester is closed, however we anticipate a recruiting phase at the start of the Fall 2024 semester. 
+          </p1>
+          <a href="teams.html">
+            <button>Apply Now</button>
+          </a>
+      <div class="glow"></div>
+    </div>
+  </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+<script src="home.js"></script>
+
+
 </html>

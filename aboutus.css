@@ -1,0 +1,324 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.customgradient {
+    /* background: rgb(163, 84, 0);
+    background: linear-gradient(90deg, rgba(163, 84, 0, 1) 0%, rgba(237, 148, 65, 1) 100%); */
+    background: rgb(128, 66, 0);
+    background: linear-gradient(90deg, rgba(128, 66, 0, 1) 0%, rgba(176, 92, 14, 1) 100%);
+}
+
+/* .navbar {
+    width: 100%;
+    height: 3.5rem;
+} */
+
+/* .nav-item {
+    transition: transform 1s cubic-bezier(0.61, 1, 0.88, 1);
+}
+ */
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.dropdown-menu {
+    background-color: #e6883b;
+    animation: slideDown 0.3s ease;
+
+
+}
+
+li .dropdown-item {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.6s cubic-bezier(0.12, 0, 0.39, 0);
+}
+
+
+li .dropdown-item:hover {
+    background-color: #cf7429;
+    /* color: white; */
+
+}
+
+
+
+
+
+
+.imagesection {
+    width: 100%;
+    height: 94vh;
+    position: relative;
+    overflow: hidden;
+    /* background-color: #D6D2C4; */
+    background-color: #161B22;
+    font-size: 1 rem;
+}
+
+.imagesection::after {
+
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+    /* background-color: #a54b01;  */
+    /* background: linear-gradient(90deg, rgba(165,75,1,1) 0%, rgba(195,94,0,1) 100%); */
+    /* background: linear-gradient(90deg, rgba(135,61,0,1) 0%, rgba(222,107,0,1) 100%); */
+    background: linear-gradient(90deg, rgba(98, 44, 0, 1) 0%, rgba(222, 107, 0, 1) 100%);
+
+    z-index: 2;
+    clip-path: polygon(100% 68%, 0% 100%, 100% 100%);
+    content: "";
+    z-index: 0;
+
+
+
+}
+
+.imagesection img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);
+    /* clip-path: polygon(0 0, 0% 100%, 100% 0); */
+    object-fit: cover;
+    opacity: 60%;
+    filter: brightness(30%);
+}
+
+
+
+.image-text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    /* three lines above are to let the text fade in on load */
+
+}
+
+.image-text-content h1 {
+    font-size: 1.5em;
+}
+
+.image-text-content p {
+    font-size: 0.5em;
+}
+
+.image-text-content span {
+    font-size: 0.5em;
+}
+
+
+
+
+.info {
+    width: 100%;
+    /* height: 40vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em;
+    /* flex-wrap: wrap; */
+    font-size: 1.5em;
+
+    perspective: 1500px;
+
+    background-color: #0D1117;
+
+}
+.info h1{
+    color: #cf7429;
+}
+
+
+.info.two h1{
+    color: #cf7429;
+}
+
+.info.two {
+    background-color: #D6D2C4;
+    background-image: url(images/GMpic.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.loop-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a54b01;
+    opacity: 50%;
+    z-index: -1;
+    box-shadow: inset 0 0 100px 25px rgba(0, 0, 0, 0.5);
+
+}
+
+.hoverbox {
+    /* background-color: rgb(241, 241, 241); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em;
+    margin: 2.5em;
+    flex-wrap: wrap;
+
+    /* font-weight: bold;
+    padding: 1em;
+    text-align: right;
+    color: #181a1a;
+    
+    width:  300px;
+    height: 400px;
+    box-shadow: 0 1px 5px #00000099; */
+
+    border-radius: 10px;
+    border: 1px;
+    /* border-color: rgb(201, 201, 201); */
+    border-color: #2E343B;
+    border-style: solid;
+
+    position: relative;
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    transform: rotate3d(0);
+
+    background-color: #161B22;
+    color: white;
+}
+
+.box {
+    /* background-color: rgb(241, 241, 241); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em;
+    margin: 2.5em;
+    flex-wrap: wrap;
+
+    /* font-weight: bold;
+    padding: 1em;
+    text-align: right;
+    color: #181a1a;
+    
+    width:  300px;
+    height: 400px;
+    box-shadow: 0 1px 5px #00000099; */
+
+    border-radius: 10px;
+    border: 1px;
+    /* border-color: rgb(201, 201, 201); */
+    border-color: #2E343B;
+    border-style: solid;
+    background-color: #161B22;
+    color: white;
+}
+
+.hoverbox.two {}
+
+.hoverbox:hover {
+    transition-duration: 150ms;
+    box-shadow: 0 5px 20px 5px #00000044;
+}
+
+.hoverbox .glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
+}
+
+
+.headingcarousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D1117;
+    border-bottom: 0.5rem solid #A54B01;  
+    /* Work on the border bottom color maybe? */
+
+}
+
+.headingcarousel h1 {
+    /* flex: 1; */
+    color: white;
+    /* border: 1px solid #2E343B;
+    border-radius: 10px; */
+    padding: 1vh;
+}
+
+.h1container {
+    background-color: #161B22;
+    border: 1px solid #2E343B;
+    border-radius: 10px;
+    /* padding: 1vh; */
+}
+
+/* .headingcarousel.second {
+    background-color: #161B22;
+}
+
+.h1container.second {
+    background-color: #0D1117;
+} */
+
+
+
+
+
+@keyframes show {
+    0% {
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}
+
