@@ -301,6 +301,7 @@ a {
 
 .grid {
 	float: none;
+    background-color: #161B22;
 	width: 100%;
 	padding-left: 0.2em;
 	padding-right: 0.2em;
