@@ -61,7 +61,9 @@ li .dropdown-item:hover {
 }
 
 
-
+.body-text {
+    font-size: 1.5 em;
+}
 
 
 
@@ -251,6 +253,17 @@ li .dropdown-item:hover {
     border-style: solid;
     background-color: #161B22;
     color: white;
+}
+
+.box p {
+  font-size: 21px; 
+  line-height: 1.5; 
+  color: #ffffff; 
+}
+
+.box h1 {
+  font-size: 35px; 
+  line-height: 1.5; 
 }
 
 .hoverbox.two {}
