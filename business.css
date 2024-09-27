@@ -249,6 +249,8 @@ li .dropdown-item:hover {
   background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
 }
 
+
+
 .box {
   /* background-color: rgb(241, 241, 241); */
   display: flex;
@@ -296,6 +298,7 @@ li .dropdown-item:hover {
       }
 }
 }
+
 
 
 .headingcarousel {
