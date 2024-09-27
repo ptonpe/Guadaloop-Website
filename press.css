@@ -241,6 +241,54 @@ li .dropdown-item:hover {
     background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
 }
 
+.box {
+    /* background-color: rgb(241, 241, 241); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em;
+    margin: 2.5em;
+    flex-wrap: wrap;
+  
+    /* font-weight: bold;
+    padding: 1em;
+    text-align: right;
+    color: #181a1a;
+    
+    width:  300px;
+    height: 400px;
+    box-shadow: 0 1px 5px #00000099; */
+  
+    border-radius: 10px;
+    border: 1px;
+    /* border-color: rgb(201, 201, 201); */
+    border-color: #2E343B;
+    border-style: solid;
+  
+    position: relative;
+  
+    background-color: #161B22;
+    color: white;
+    padding: 2em;
+  
+    & button {
+        width: fit-content;
+        background-color: rgba(255, 255, 255, 0.9);
+        color: rgba(0, 0, 0, 0.9);
+        border: 0;
+        border-radius: 0.25rem;
+        padding: 0.75rem;
+        cursor: pointer;
+        transition: background var(--speed), color var(--speed);
+  
+        &:hover {
+            /* background-color: rgba(0, 0, 0, 0.9); */
+            background-color: #161B22;
+            color: rgba(255, 255, 255, 0.9);
+        }
+  }
+  }
+
 
 *,*:after,*:before {
 	-webkit-box-sizing: border-box;
