@@ -147,9 +147,17 @@ li .dropdown-item:hover {
     max-width: 400px;
 }
 
-.engineering h3, .business h3 {
+.engineering h3, .business h3, .research h3 {
     margin-bottom: 1em;
     color: #e6883b;
+}
+
+.engineering a, .business a, .research a {
+    font-weight: 600; /*Bolded but slightly less than default*/
+}
+
+.engineering h3 a:hover, .business h3 a:hover, .research h3 a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 .engineering ul, .business ul {
