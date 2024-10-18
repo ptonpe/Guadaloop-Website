@@ -334,6 +334,18 @@
   .h1container.second {
     background-color: #0D1117;
   } */
+
+.plain-background {
+    text-align: center;
+    padding: 1em;
+    background-color: #0D1117;
+    color: white;
+}
+
+.plain-background h2 {
+    margin-bottom: 0.5em;
+    color: #e6883b;
+}
   
   
   
