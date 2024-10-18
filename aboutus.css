@@ -229,6 +229,12 @@ li .dropdown-item:hover {
     pointer-events: none;
 }
 
+.info.two img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%
+}
+
 .loop-overlay {
     position: absolute;
     bottom: 0;
@@ -241,6 +247,7 @@ li .dropdown-item:hover {
     box-shadow: inset 0 0 100px 25px rgba(0, 0, 0, 0.5);
 
 }
+
 
 .hoverbox {
     /* background-color: rgb(241, 241, 241); */
