@@ -366,8 +366,8 @@ li .dropdown-item:hover {
   }
   
   .card {
-    width: 37rem;
-    height: 45rem;
+    width: 30rem;
+    height: 30rem;
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 75%;
     position: relative;
