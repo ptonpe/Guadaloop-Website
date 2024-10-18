@@ -117,36 +117,72 @@ li .dropdown-item:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    color: black;
-    font-size: 3em;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
     color: white;
-
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    /* three lines above are to let the text fade in on load */
-
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
 }
 
 .image-text-content h1 {
-    font-size: 1.5em;
+    font-size: 3.5em; /* Reverted back to 4em from 3.5em */
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+}
+
+.image-text-content h1 span {
+    display: inline-block;
+    opacity: 0;
+    animation: revealLetter 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
+}
+
+.image-text-content h1 span.space {
+  margin-right: 0.1em; /* Reduced space between words */
 }
 
 .image-text-content p {
-    font-size: 0.5em;
+    font-size: 1.5em; /* Increased from 1.3em */
+    margin-bottom: 0.5em;
+    opacity: 0;
+    animation: fadeInScale 1s ease-out 2s forwards;
 }
 
-.image-text-content span {
-    font-size: 0.5em;
+.image-text-content span.subtitle {
+    font-size: 1.3em; /* Increased from 1.1em */
+    font-style: italic;
+    opacity: 0;
+    animation: fadeInScale 1s ease-out 3s forwards;
 }
 
+.animated-text {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards, glowPulse 3s infinite;
+}
 
+.delayed {
+    animation-delay: 0.5s;
+}
 
+.more-delayed {
+    animation-delay: 1s;
+}
+
+@media (max-width: 768px) {
+    .image-text-content h1 {
+        font-size: 3em; /* Reverted back to 3em from 2.5em */
+        letter-spacing: -0.5px; /* Slightly less negative spacing for smaller screens */
+    }
+    
+    .image-text-content p {
+        font-size: 1.3em; /* Increased from 1.1em */
+    }
+    
+    .image-text-content span.subtitle {
+        font-size: 1.1em; /* Increased from 0.9em */
+    }
+}
 
 .info {
     width: 100%;
@@ -376,3 +412,63 @@ li .dropdown-item:hover {
 
 
 
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glowPulse {
+    0% {
+        text-shadow: 0 0 5px rgba(230, 136, 59, 0.7);
+    }
+    50% {
+        text-shadow: 0 0 20px rgba(230, 136, 59, 0.9), 0 0 30px rgba(230, 136, 59, 0.7);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(230, 136, 59, 0.7);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes revealLetter {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
