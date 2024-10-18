@@ -16,6 +16,10 @@
     background: linear-gradient(90deg, rgba(128, 66, 0, 1) 0%, rgba(176, 92, 14, 1) 100%);
 }
 
+.nav-link{
+    color: white !important;
+}
+
 /* .navbar {
     width: 100%;
     height: 3.5rem;
@@ -46,7 +50,7 @@
 }
 
 li .dropdown-item {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,7 +65,9 @@ li .dropdown-item:hover {
 }
 
 
-
+.body-text {
+    font-size: 1.5 em;
+}
 
 
 
@@ -173,10 +179,54 @@ li .dropdown-item:hover {
 }
 
 .info.two {
-    background-color: #D6D2C4;
-    background-image: url(images/GMpic.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #0D1117;
+    background-image: none;
+}
+
+.info.two .box {
+    background-color: rgba(22, 27, 34, 0.8);
+    max-width: 800px;
+    width: 100%;
+}
+
+.info.two h2 {
+    color: #cf7429;
+    font-size: 1.75em;
+    margin-bottom: 0.75em;
+    text-align: center;
+}
+
+.info.two h3 {
+    color: #e6883b;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.info.two ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.info.two ul ul {
+    padding-left: 1.5em;
+}
+
+.info.two li {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 0.5em;
+}
+
+.info.two .glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
+    pointer-events: none;
 }
 
 .loop-overlay {
@@ -253,6 +303,17 @@ li .dropdown-item:hover {
     color: white;
 }
 
+.box p {
+  font-size: 21px; 
+  line-height: 1.5; 
+  color: #ffffff; 
+}
+
+.box h1 {
+  font-size: 35px; 
+  line-height: 1.5; 
+}
+
 .hoverbox.two {}
 
 .hoverbox:hover {
@@ -321,4 +382,6 @@ li .dropdown-item:hover {
         transform: translateY(0);
     }
 }
+
+
 

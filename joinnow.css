@@ -19,13 +19,18 @@
     }
 }
 
+.nav-link{
+    color: white !important;
+}
+
+
 .dropdown-menu {
     background-color: #e6883b;
     animation: slideDown 0.3s ease;
 }
 
 li .dropdown-item {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
