@@ -194,7 +194,6 @@ li .dropdown-item:hover {
   opacity: 50%;
   z-index: -1;
   box-shadow: inset 0 0 100px 25px rgba(0, 0, 0, 0.5);
-
 }
 
 .hoverbox {
