@@ -472,3 +472,22 @@ li .dropdown-item:hover {
         transform: translateY(0);
     }
 }
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust this value as needed */
+  width: auto;
+}
+
+/* Add this new rule for navbar links */
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* You can also add a hover effect if desired */
+.navbar-nav .nav-link:hover {
+    color: #e6883b !important; /* This is the orange color used elsewhere in your design */
+}
