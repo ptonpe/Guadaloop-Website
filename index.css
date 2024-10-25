@@ -481,6 +481,7 @@ li .dropdown-item:hover {
   height: 40px; /* Adjust this value as needed */
   width: auto;
 }
+/*test*/
 
 /* Add this new rule for navbar links */
 .navbar-nav .nav-link {
