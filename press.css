@@ -8,6 +8,11 @@
     }
 }
 
+.nav-link{
+    color: white !important;
+}
+
+
 
 .customgradient {
     /* background: rgb(163, 84, 0);
@@ -46,7 +51,7 @@
 }
 
 li .dropdown-item {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,11 +64,6 @@ li .dropdown-item:hover {
     /* color: white; */
 
 }
-
-
-
-
-
 
 .imagesection {
     width: 100%;
@@ -304,6 +304,7 @@ html {
 
 body {
 	font-size: 1em;
+    background-color: #161B22;
 	/*font-family: body-font-family;*/
 	font-weight: 400;
 	line-height: 1.5;
@@ -334,7 +335,6 @@ a {
 	margin-right: auto;
 	overflow: hidden;
 	padding-top: 1.5em;
-	padding-bottom: 1.5em;
 }
 
 .site__info {

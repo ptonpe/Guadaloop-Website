@@ -15,6 +15,11 @@
     background: rgb(128, 66, 0);
     background: linear-gradient(90deg, rgba(128, 66, 0, 1) 0%, rgba(176, 92, 14, 1) 100%);
   }
+
+  .nav-link{
+    color: white !important;
+  }
+
   
   /* .navbar {
     width: 100%;
@@ -46,7 +51,7 @@
   }
   
   li .dropdown-item {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -173,14 +178,14 @@
     color: #cf7429;
     align-items: center;
     justify-content: center;
-    margin: 2.5em;
+    margin: 1em;
 }
 
 
 
   
   .info.two {
-    background-color: #D6D2C4;
+    background-color: #cf7429;
     background-image: url(https://res.cloudinary.com/scalefunder/image/fetch/s--T-bX0TmQ--/f_auto,fl_lossy,q_auto/https://res.cloudinary.com/scalefunder/image/upload/v1552072002/HornRaiser/pzpw69atyywwxizxkpla.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -309,8 +314,10 @@
     background-color: rgba(255, 255, 255, 0.9);
     color: rgba(0, 0, 0, 0.9);
     border: 0;
+
     border-radius: 0.15rem;
     padding: 0.45rem;
+
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
     margin: 1rem 0;
@@ -330,6 +337,7 @@
     background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
     pointer-events: none;
   }
+
 
   .box .contact-button {
     align-self: center;
@@ -363,6 +371,7 @@
     transform: translateY(0);
     box-shadow: 0 2px 4px rgba(230, 136, 59, 0.2);
   }
+
 
   
   
@@ -401,6 +410,18 @@
   .h1container.second {
     background-color: #0D1117;
   } */
+
+.plain-background {
+    text-align: center;
+    padding: 1em;
+    background-color: #0D1117;
+    color: white;
+}
+
+.plain-background h2 {
+    margin-bottom: 0.5em;
+    color: #e6883b;
+}
   
   
   

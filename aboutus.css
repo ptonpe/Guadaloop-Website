@@ -16,6 +16,10 @@
     background: linear-gradient(90deg, rgba(128, 66, 0, 1) 0%, rgba(176, 92, 14, 1) 100%);
 }
 
+.nav-link{
+    color: white !important;
+}
+
 /* .navbar {
     width: 100%;
     height: 3.5rem;
@@ -46,7 +50,7 @@
 }
 
 li .dropdown-item {
-    color: black;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -223,6 +227,12 @@ li .dropdown-item:hover {
     top: 0;
     background-image: radial-gradient(circle at 50% -20%, #6d6c6c02, #0000000f);
     pointer-events: none;
+
+}
+.info.two img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%
 }
 
 .loop-overlay {
@@ -237,6 +247,7 @@ li .dropdown-item:hover {
     box-shadow: inset 0 0 100px 25px rgba(0, 0, 0, 0.5);
 
 }
+
 
 .hoverbox {
     /* background-color: rgb(241, 241, 241); */
